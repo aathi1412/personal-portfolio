@@ -62,7 +62,7 @@ export default function Navbar() {
           className="font-display text-lg font-semibold tracking-tight text-foreground-light dark:text-foreground-dark"
         >
           <span className="font-mono font-normal text-accent">&lt;</span>
-          Aathi
+          Dev
           <span className="font-mono font-normal text-accent">/&gt;</span>
         </a>
 
