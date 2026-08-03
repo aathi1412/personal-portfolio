@@ -16,7 +16,7 @@ export default function Footer() {
               className="font-display text-base font-semibold text-foreground-light dark:text-foreground-dark"
             >
               <span className="font-mono font-normal text-accent">&lt;</span>
-              {profile.name}
+              {profile.tag}
               <span className="font-mono font-normal text-accent">/&gt;</span>
             </a>
             <p className="mt-1 text-xs text-muted-light dark:text-muted-dark">
@@ -44,24 +44,20 @@ export default function Footer() {
               <FaLinkedin size={16} />
             </a>
 
-            {/* Resume isn't ready yet — a real disabled state, not a dead link. */}
-            <button
-              type="button"
-              disabled
-              aria-disabled="true"
-              title="Resume coming soon"
-              className="flex cursor-not-allowed items-center gap-1.5 rounded-full border border-border-light px-4 py-2 text-xs font-medium text-muted-light opacity-60 dark:border-border-dark dark:text-muted-dark"
+            <a
+              href="/resume.pdf"
+              download="Aathi_Resume.pdf"
+              className="flex items-center gap-1.5 rounded-full border border-border-light px-4 py-2 text-xs font-medium transition-all duration-200 hover:bg-gray-100 dark:border-border-dark dark:text-white dark:hover:bg-gray-800 "
             >
               <Download size={14} />
-              Resume <span className="hidden sm:inline">(coming soon)</span>
-            </button>
+                Download Resume
+            </a>
           </div>
         </div>
 
-        {/* Bottom row: copyright + back to top */}
         <div className="mt-8 flex flex-col items-center gap-4 border-t border-border-light pt-6 dark:border-border-dark sm:flex-row sm:justify-between">
           <p className="text-xs text-muted-light dark:text-muted-dark">
-            © {year} {profile.name}. Built with React &amp; Tailwind CSS.
+            © {year} {profile.name}. Designed and developed by Aathi.
           </p>
           <a
             href="#"
