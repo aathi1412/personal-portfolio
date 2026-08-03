@@ -2,7 +2,7 @@
 export const profile = {
   name: 'Aathithyan',
   title: 'Java Full Stack Developer',
-    tag: 'Dev',
+  tag: 'Aathi',
   heroTagline:
     'From responsive React frontends to secure Java and Spring Boot backends, I develop reliable, end-to-end web applications.',
   about:
