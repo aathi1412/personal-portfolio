@@ -19,7 +19,7 @@ const CONTACT_LINKS = [
   },
   {
     label: 'LinkedIn',
-    value: 'aathithyan-t',
+    value: 'Aathithyan',
     href: profile.linkedin,
     icon: FaLinkedin,
     external: true,
