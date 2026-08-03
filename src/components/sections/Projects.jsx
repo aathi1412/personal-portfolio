@@ -1,5 +1,5 @@
-import { projects } from '@/data/projects';
-import ProjectCard from '@/components/ui/ProjectCard';
+import { projects } from '../../data/projects';
+import ProjectCard from '../ui/ProjectCard';
 
 export default function Projects() {
   const featured = projects.filter((project) => project.featured);
@@ -18,7 +18,7 @@ export default function Projects() {
 
         {/* Content column */}
         <div className="space-y-12">
-          <div className="grid gap-6 sm:grid-cols-2">
+          <div className="grid gap-6 sm:grid-cols-1 lg:grid-cols-2">
             {featured.map((project) => (
               <ProjectCard key={project.title} project={project} featured />
             ))}
@@ -28,7 +28,7 @@ export default function Projects() {
             <h3 className="font-mono text-xs uppercase tracking-widest text-muted-light dark:text-muted-dark">
               More Projects
             </h3>
-            <div className="mt-4 grid gap-6 sm:grid-cols-2">
+            <div className="mt-4 grid gap-6 sm:grid-cols-1 lg:grid-cols-2">
               {others.map((project) => (
                 <ProjectCard key={project.title} project={project} />
               ))}
