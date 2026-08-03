@@ -41,14 +41,39 @@ export const projects = [
     live: ''
   },
   {
+    title: 'Bus Reservation System',
+    description:
+        'A Java console application for managing bus bookings with JDBC and MySQL. Supports passenger reservations, ticket cancellation, and real-time seat availability.',
+    features: [
+        'Bus Booking',
+        'Ticket Cancellation',
+        'Seat Availability',
+        'Admin Management',
+        'Passenger Management',
+        'JDBC Database Integration'
+    ],
+    tech: ['Java', 'JDBC', 'MySQL'],
+    githubUrl: 'https://github.com/aathi1412/Bus-Reservation-System-console-java',
+    featured: false,
+    status: 'completed',
+    live: ''
+  },
+  {
     title: 'Weather Dashboard',
     description:
       'A React dashboard that pulls live weather data from the OpenWeather API and presents it in a clean, glanceable interface.',
-    features: [],
-    tech: ['React', 'OpenWeather API'],
+    features: [
+      'Current Weather',
+      'City Search',
+      'Temperature, Wind Speed & Humidity',
+      '5-Day Weather Forecast',
+      'Responsive UI',
+      'Live Weather Data'
+    ],
+    tech: ['HTML', 'CSS', 'JavaScript', 'OpenWeather API'],
     githubUrl: 'https://github.com/aathi1412/Weather-Dashboard',
     featured: false,
-    status: 'active',
+    status: 'completed',
     live: 'https://zoro-weather-dashboard.netlify.app/'
   },
   {
@@ -59,7 +84,7 @@ export const projects = [
     tech: ['React', 'Local Storage'],
     githubUrl: 'https://github.com/aathi1412/Todo-List-Project',
     featured: false,
-    status: 'active',
+    status: 'completed',
     live: ''
   },
 ];
