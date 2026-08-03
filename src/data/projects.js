@@ -13,27 +13,32 @@ export const projects = [
       'JWT Authentication',
       'Refresh Token',
       'Account Lock',
-      'Role Based Authentication',
+      'Role-Based Authorization',
+      'Database Versioning & Migrations',
     ],
-    tech: ['Spring Boot', 'Spring Security', 'JWT', 'MySQL'],
+    tech: ['Spring Boot', 'Spring Security', 'JWT', 'MySQL', 'Flyway'],
     githubUrl: 'https://github.com/aathi1412/authentication-system',
     featured: true,
+    status: 'In Progress',
+    live: ''
   },
   {
     title: 'Ecommerce Backend API',
     description:
-      'A REST API backend for an ecommerce platform — product and category management, order processing, versioned database migrations, and a containerized setup ready to deploy.',
+      'A REST API backend for an ecommerce platform — product and cart management, order processing, versioned database migrations, and a containerized setup ready to deploy.',
     features: [
       'REST APIs',
       'Product Management',
-      'Category Management',
+      'Cart Management',
       'Order APIs',
       'Docker',
-      'Flyway',
+      'Database Versioning & Migrations',
     ],
-    tech: ['Spring Boot', 'MySQL', 'Docker'],
+    tech: ['Spring Boot', 'MySQL', 'Docker', 'Flyway'],
     githubUrl: 'https://github.com/aathi1412/ecommerce-API',
     featured: true,
+    status: 'In Progress',
+    live: ''
   },
   {
     title: 'Weather Dashboard',
@@ -43,6 +48,8 @@ export const projects = [
     tech: ['React', 'OpenWeather API'],
     githubUrl: 'https://github.com/aathi1412/Weather-Dashboard',
     featured: false,
+    status: 'active',
+    live: 'https://zoro-weather-dashboard.netlify.app/'
   },
   {
     title: 'Todo Application',
@@ -52,5 +59,7 @@ export const projects = [
     tech: ['React', 'Local Storage'],
     githubUrl: 'https://github.com/aathi1412/Todo-List-Project',
     featured: false,
+    status: 'active',
+    live: ''
   },
 ];
